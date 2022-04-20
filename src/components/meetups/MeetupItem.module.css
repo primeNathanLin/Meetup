@@ -1,0 +1,140 @@
+.item {
+    margin: 1rem;
+    width: 30%;
+    float: left;
+  }
+
+  .itemBig {
+    margin: 1rem auto;
+    width: 80%;
+  }
+  
+.image {
+  width: 100%;
+  height: 17vw;
+  overflow: hidden;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.imageBig {
+  width: 100%;
+  /* height: 30vw; */
+  height: auto;
+  overflow: hidden;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.imageBig img {
+  width: 100%;
+  object-fit: cover;
+}
+
+
+.content {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  /* border: 1px solid cornflowerblue; */
+}
+
+.content h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+  margin-top: 1em;
+  color: #2c292b;
+  height: 2em;
+  line-height: 1.5em;
+  margin-bottom: 1em;
+}
+
+.content .descWrap{
+  height: 5rem;
+  overflow: hidden;
+  /* border: 1px solid chocolate; */
+  padding: 0 10px;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 1em;
+}
+
+.content .desc{
+  overflow: auto;
+  /* border: 1px solid chocolate; */
+  padding: 0 10px;
+  margin: 0;
+  margin-top: 5px;
+  margin-bottom: 1em;
+}
+
+.actions {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  color: #77002e;
+  border: 1px solid #77002e;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  margin-left: 1em;
+  /* margin-top: 1em; */
+  margin-bottom: 1em;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #ffe2ed;
+}
+
+/* .actions a {
+font-weight: 500;
+color: #77002e;
+text-decoration: none;
+display: inline-block;
+width: 5em;
+border: 1px solid cadetblue;
+margin-left: 10px;
+} */
+.actions a{
+  display: inline-block;
+  font: inherit;
+  cursor: pointer;
+  color: #77002e;
+  border: 1px solid #77002e;
+  background-color: transparent;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  margin-left: 1em;
+  /* margin-top: 1em; */
+  margin-bottom: 1em;
+  text-decoration: none;
+}
+
+/* .actions a:hover{
+  background-color: #77002e;
+} */
+.actions a:hover{
+  background-color: #ffe2ed;
+}
+
+address{
+  /* border: 1px solid chartreuse; */
+  margin: 0;
+  padding: 0;
+  height: 2rem;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
